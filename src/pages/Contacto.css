@@ -1,0 +1,33 @@
+.contacto {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contacto h1 {
+  color: var(--color-primary);
+  font-size: 2rem;
+  margin-bottom: 0.4rem;
+}
+
+.contacto-subtitle {
+  color: var(--color-text-muted);
+  margin-bottom: 2rem;
+}
+
+.contacto-placeholder {
+  background-color: var(--color-card);
+  border: 2px dashed var(--color-border);
+  border-radius: 12px;
+  padding: 3rem;
+  text-align: center;
+}
+
+.contacto-placeholder span {
+  font-size: 2.5rem;
+}
+
+.contacto-placeholder p {
+  color: var(--color-text-muted);
+  margin-top: 0.8rem;
+}

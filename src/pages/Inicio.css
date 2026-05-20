@@ -1,0 +1,59 @@
+.inicio {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.inicio-hero {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+}
+
+.inicio-hero h1 {
+  font-size: 2.5rem;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.inicio-subtitle {
+  font-size: 1.2rem;
+  color: var(--color-text-muted);
+}
+
+.inicio-cards {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 240px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+  font-size: 2rem;
+}
+
+.card h3 {
+  margin: 0.8rem 0 0.4rem;
+  color: var(--color-primary);
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}

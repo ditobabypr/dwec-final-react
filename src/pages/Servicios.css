@@ -1,0 +1,51 @@
+.servicios {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.servicios h1 {
+  color: var(--color-primary);
+  font-size: 2rem;
+  margin-bottom: 0.4rem;
+}
+
+.servicios-subtitle {
+  color: var(--color-text-muted);
+  margin-bottom: 2rem;
+}
+
+.servicios-grid {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.servicio-card {
+  background-color: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 2rem;
+  flex: 1;
+  min-width: 220px;
+  text-align: center;
+}
+
+.servicio-card span {
+  font-size: 2.5rem;
+}
+
+.servicio-card h3 {
+  margin: 0.8rem 0 0.4rem;
+  color: var(--color-primary);
+}
+
+.servicio-card p {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.servicio-card.placeholder {
+  border-style: dashed;
+  opacity: 0.8;
+}

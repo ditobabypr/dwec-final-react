@@ -1,0 +1,66 @@
+/* Variables CSS globales - modo claro (por defecto) */
+:root {
+  --color-primary: #6d28d9;
+  --color-primary-hover: #5b21b6;
+  --color-bg: #ffffff;
+  --color-text: #1f2937;
+  --color-text-muted: #6b7280;
+  --color-card: #f9fafb;
+  --color-border: #e5e7eb;
+  --color-input-bg: #ffffff;
+  --color-success: #16a34a;
+  --color-error: #dc2626;
+
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Variables CSS globales - modo oscuro */
+[data-theme='dark'] {
+  --color-primary: #a78bfa;
+  --color-primary-hover: #c4b5fd;
+  --color-bg: #111827;
+  --color-text: #f3f4f6;
+  --color-text-muted: #9ca3af;
+  --color-card: #1f2937;
+  --color-border: #374151;
+  --color-input-bg: #374151;
+  --color-success: #4ade80;
+  --color-error: #f87171;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  color: var(--color-text);
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--color-primary);
+}
