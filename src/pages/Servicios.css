@@ -15,10 +15,16 @@
   margin-bottom: 2rem;
 }
 
-.servicios-grid {
-  display: flex;
-  gap: 1.5rem;
-  flex-wrap: wrap;
+.servicios-seccion {
+  margin-bottom: 3rem;
+}
+
+.servicios-seccion h2 {
+  color: var(--color-text);
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--color-border);
 }
 
 .servicio-card {
@@ -26,8 +32,6 @@
   border: 1px solid var(--color-border);
   border-radius: 12px;
   padding: 2rem;
-  flex: 1;
-  min-width: 220px;
   text-align: center;
 }
 
