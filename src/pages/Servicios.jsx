@@ -1,9 +1,9 @@
 import Galeria from '../components/Galeria'
+import Blog from '../components/Blog'
 import './Servicios.css'
 
 /**
- * Servicios: sección con la Galería interactiva y el Blog.
- * El Blog se añadirá en el ejercicio 4.
+ * Servicios: sección con la Galería interactiva y el Blog de posts dinámicos.
  */
 function Servicios() {
   return (
@@ -18,11 +18,7 @@ function Servicios() {
 
       <section className="servicios-seccion">
         <h2>Blog</h2>
-        <div className="servicio-card placeholder">
-          <span>📝</span>
-          <h3>Blog</h3>
-          <p>Próximamente: sistema de publicaciones dinámicas</p>
-        </div>
+        <Blog />
       </section>
     </div>
   )
